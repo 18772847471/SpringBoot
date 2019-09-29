@@ -5,8 +5,8 @@ server:
 spring:
     datasource:
         driver-class-name:  com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://49.4.52.68:3306/study?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
-        username: root
-        password: HuangBo@2019
+        url: jdbc:mysql://120.27.248.244:3306/study?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+        username: ”√ªß√˚
+        password: √‹¬Î
 mybatis:
     mapper-locations: classpath*:mapping/**/*.xml

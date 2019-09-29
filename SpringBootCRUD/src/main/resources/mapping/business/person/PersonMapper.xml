@@ -2,4 +2,83 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.business.person.dao.PersonDao">
 
+    <select id="selectPersonAll" resultType="com.example.business.person.entity.Person">
+           select * from T_PERSON
+    </select>
+
+    <select id="findPersonAll" resultType="com.example.business.person.entity.Person">
+           select * from T_PERSON
+    </select>
+
+    <select id="getPersonByPersonguid" parameterType="String" resultType="com.example.business.person.entity.Person">
+           select * from T_PERSON where T_PERSON.personguid = #{personguid}
+    </select>
+
+    <insert id="insertPerson" parameterType="com.example.business.person.entity.Person">
+            insert into t_person(personguid,
+                                  historyid,
+                                  processinstanceid,
+                                  processinstancecreatedate,
+                                  name,
+                                  certcode,
+                                  mobile,
+                                  culture,
+                                  birthday,
+                                  valid,
+                                  remark)
+                           values
+                             (#{personguid:VARCHAR},
+                              #{historyid:VARCHAR},
+                              #{processinstanceid:VARCHAR},
+                              #{processinstancecreatedate:VARCHAR},
+                              #{name:VARCHAR},
+                              #{certcode:VARCHAR},
+                              #{mobile:VARCHAR},
+                              #{culture:VARCHAR},
+                              #{birthday:VARCHAR},
+                              #{valid:VARCHAR},
+                              #{remark:VARCHAR});
+
+    </insert>
+
+    <update id="updatePerson"  parameterType="com.example.business.person.entity.Person">
+        update T_PERSON
+        <trim prefix="set" suffixOverrides=",">
+            <if test="historyid !=null">
+                historyid = #{historyid}
+            </if>
+            <if test="processinstanceid !=null and processinstanceid !=''" >
+                processinstanceid = #{processinstanceid}
+            </if>
+            <if test="processinstancecreatedate !=null and processinstancecreatedate !=''" >
+                processinstancecreatedate = #{processinstancecreatedate}
+            </if>
+            <if test="name !=null and name !=''" >
+                name = #{name}
+            </if>
+            <if test="certcode !=null and certcode !=''" >
+                certcode = #{certcode}
+            </if>
+            <if test="mobile !=null and mobile !=''" >
+                mobile = #{mobile}
+            </if>
+            <if test="culture !=null">
+                culture = #{culture}
+            </if>
+            <if test="birthday !=null and birthday !=''" >
+                birthday = #{birthday}
+            </if>
+            <if test="valid !=null">
+                valid = #{valid}
+            </if>
+            <if test="remark !=null and remark !=''" >
+                remark = #{remark}
+            </if>
+        </trim>
+        where personguid = #{personguid:VARCHAR}
+    </update>
+
+    <delete id="deletePerson" parameterType="String">
+          delete from  T_PERSON where T_PERSON.personguid = #{personguid}
+    </delete>
 </mapper>

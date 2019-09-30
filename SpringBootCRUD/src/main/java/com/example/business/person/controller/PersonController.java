@@ -1,12 +1,12 @@
 package com.example.business.person.controller;
 
-import com.example.business.person.VO.PersonVO;
+
 import com.example.business.person.entity.Person;
 import com.example.business.person.service.PersonService;
 import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.ApiOperation;
+import org.apache.log4j.Logger;
 import org.springframework.web.bind.annotation.*;
-
 import javax.annotation.Resource;
 import java.util.List;
 
@@ -14,12 +14,15 @@ import java.util.List;
 @RequestMapping("/v1/person")
 public class PersonController {
 
+    private static Logger logger=Logger.getLogger(PersonController.class);
+
     @Resource(name="personServiceImpl")
     private PersonService personService;
 
     @ApiOperation(value = "hello接口",notes = "hello接口")
     @RequestMapping(value ="/hello", method = RequestMethod.GET)
     public String hello(){
+        logger.info("普通Info信息");
         return "hello world";
     }
 

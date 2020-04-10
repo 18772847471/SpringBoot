@@ -1,0 +1,10 @@
+server:
+    port: 80
+spring:
+    datasource:
+        driver-class-name:  com.mysql.jdbc.Driver
+        url: jdbc:mysql://120.27.248.244:3306/study?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+        username: root
+        password: HuangBo@2019
+mybatis:
+    mapper-locations: classpath*:mapping/**/*.xml

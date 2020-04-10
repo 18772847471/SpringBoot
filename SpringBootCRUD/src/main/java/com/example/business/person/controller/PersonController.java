@@ -23,6 +23,7 @@ public class PersonController {
     @RequestMapping(value ="/hello", method = RequestMethod.GET)
     public String hello(){
         logger.info("普通Info信息");
+        System.out.println("hello world");
         return "hello world";
     }
 

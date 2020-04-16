@@ -11,7 +11,7 @@ public class Reftest {
         String s2= "ab"+"c";
         System.out.println(s1==s2);*/
 
-        String s1 = "Programming";
+       /* String s1 = "Programming";
         String s2 = new String("Programming");
         String s3 = "Program";
         String s4 = "ming";
@@ -21,7 +21,30 @@ public class Reftest {
         System.out.println(s1 == s5);
         System.out.println(s1 == s6);
         System.out.println(s1 == s6.intern());
-        System.out.println(s2 == s2.intern());
+        System.out.println(s2 == s2.intern());*/
+
+       /* String s1="ab";
+        String s2=new String("a")+"b";
+        String s3=new String("ab");
+        String s4=new String("a")+new String("b");
+        String s5= "a"+"b";
+        System.out.println(s1==s2);
+        System.out.println(s3==s2);
+        System.out.println(s3==s1);
+
+        System.out.println(s4==s1);
+        System.out.println(s4==s2);
+        System.out.println(s4==s3);
+
+        System.out.println(s5==s1);
+        System.out.println(s5==s2);
+        System.out.println(s5==s3);
+        System.out.println(s5==s4);*/
+
+       String a=null;
+       System.out.println(a+"b");
+
+
 
     }
 }

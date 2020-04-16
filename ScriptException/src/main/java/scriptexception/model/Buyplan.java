@@ -6,6 +6,8 @@ public class Buyplan {
     private  String buyplanguid;
     private  Integer platform;
     private  BigDecimal money;
+    private  String name;
+
 
     public String getBuyplanguid() {
         return buyplanguid;
@@ -29,5 +31,13 @@ public class Buyplan {
 
     public void setMoney(BigDecimal money) {
         this.money = money;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

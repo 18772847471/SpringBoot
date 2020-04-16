@@ -5,12 +5,13 @@ import com.google.gson.Gson;
 import com.googlecode.aviator.AviatorEvaluator;
 import com.googlecode.aviator.Expression;
 import scriptexception.model.Buyplan;
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class ScriptExceptionTest {
+public class ScriptExceptionTest2 {
     public static  void main(String []args){
         List<Buyplan>  list = new ArrayList<Buyplan>();
         Buyplan buyplan1 = new Buyplan();
@@ -35,17 +36,10 @@ public class ScriptExceptionTest {
         list.add(buyplan3);
 
         Gson gson = new Gson();
-        String configInfo = "(money>=500000&&platform!=0)||(money>=100000&&platform==7)";
+        String configInfo = "习近平";
         for(Buyplan buyplan:list){
             String jsonStr = gson.toJson(buyplan);
-            Map m = JSONObject.parseObject(jsonStr);
-            Expression expression = AviatorEvaluator.compile(configInfo);
-            Boolean result = (Boolean)expression.execute(m);
-            if(result){
-               System.out.println(buyplan.getBuyplanguid()+"是预警数据");
-            }else{
-                System.out.println(buyplan.getBuyplanguid()+"不是预警数据");
-            }
+            System.out.println(AviatorEvaluator.execute("string.contains('"+jsonStr+"','"+configInfo+"')"));
         }
 
      }

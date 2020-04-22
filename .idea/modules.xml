@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootCRUD/SpringBootCRUD.iml" filepath="$PROJECT_DIR$/SpringBootCRUD/SpringBootCRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/schedulermanage/schedulermanage.iml" filepath="$PROJECT_DIR$/schedulermanage/schedulermanage.iml" />
     </modules>
   </component>
 </project>

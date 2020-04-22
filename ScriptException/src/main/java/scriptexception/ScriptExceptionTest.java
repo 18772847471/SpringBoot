@@ -29,13 +29,13 @@ public class ScriptExceptionTest {
 
         Buyplan buyplan3 = new Buyplan();
         buyplan3.setBuyplanguid("3");
-        buyplan3.setPlatform(0);
+        buyplan3.setPlatform(null);
         buyplan3.setMoney(new BigDecimal(600000));
         buyplan3.setName("习近平3");
         list.add(buyplan3);
 
         Gson gson = new Gson();
-        String configInfo = "(money>=500000&&platform!=0)||(money>=100000&&platform==7)";
+        String configInfo = "platform != nil";
         for(Buyplan buyplan:list){
             String jsonStr = gson.toJson(buyplan);
             Map m = JSONObject.parseObject(jsonStr);

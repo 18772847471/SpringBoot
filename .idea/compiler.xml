@@ -6,10 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="schedulermanage" />
+        <module name="ScriptException" />
         <module name="SpringBootCRUD" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="myschedulermanage" target="1.8" />
+      <module name="schedulermanage" target="1.8" />
+      <module name="ScriptException" target="1.5" />
       <module name="SpringBootCRUD" target="1.8" />
       <module name="SpringBootHello" target="1.8" />
     </bytecodeTargetLevel>

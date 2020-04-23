@@ -8,7 +8,7 @@ import java.util.Date;
 
 public class MyTest {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         ScheduleJob scheduleJob = new ScheduleJob();
         scheduleJob.setJobName("00");
         scheduleJob.setJobGroupName("TEST");
@@ -20,22 +20,11 @@ public class MyTest {
 
         QuartzManager.addJob(scheduleJob);
 
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
-
-        /*
-         * 测试修改任务时间
-         */
-        scheduleJob.setCronExpression("0/30 * * * * ?");// 每30秒执行一次
-        QuartzManager.modifyJobTime(scheduleJob);
     }
 
-    public void show() {
-        System.err.println(getNow());// 打印当前时间
+    public void show(ScheduleJob scheduleJob) {
+        System.err.println(getNow()+scheduleJob.getCronExpression());// 打印当前时间
     }
 
     private String getNow() {

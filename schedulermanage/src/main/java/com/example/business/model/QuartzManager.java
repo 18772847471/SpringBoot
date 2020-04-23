@@ -149,4 +149,12 @@ public class QuartzManager {
         }
     }
 
+    public static Boolean checkJobState(ScheduleJob scheduleJob) throws Exception{
+        StdSchedulerFactory schedulerFactory = new StdSchedulerFactory();
+        Scheduler scheduler = schedulerFactory.getScheduler();
+        TriggerKey triggerKey = TriggerKey.triggerKey(scheduleJob.getTriggerName(), scheduleJob.getTriggerGroupName());
+        Boolean state = scheduler.checkExists(triggerKey);
+        return state;
+    }
+
 }

@@ -17,25 +17,25 @@ public class ScriptExceptionTest {
         buyplan1.setBuyplanguid("1");
         buyplan1.setPlatform(4);
         buyplan1.setMoney(new BigDecimal(600000));
-        buyplan1.setName("习近平1");
+        buyplan1.setName("习近平");
         list.add(buyplan1);
 
         Buyplan buyplan2 = new Buyplan();
         buyplan2.setBuyplanguid("2");
         buyplan2.setPlatform(7);
         buyplan2.setMoney(new BigDecimal(200000));
-        buyplan2.setName("习近平2");
+        buyplan2.setName("习近平");
         list.add(buyplan2);
 
         Buyplan buyplan3 = new Buyplan();
         buyplan3.setBuyplanguid("3");
         buyplan3.setPlatform(null);
         buyplan3.setMoney(new BigDecimal(600000));
-        buyplan3.setName("习近平3");
+        buyplan3.setName("习近平");
         list.add(buyplan3);
 
         Gson gson = new Gson();
-        String configInfo = "platform != nil";
+        String configInfo = "name == '习近平' && (platform == 7 || platform == nil)";
         for(Buyplan buyplan:list){
             String jsonStr = gson.toJson(buyplan);
             Map m = JSONObject.parseObject(jsonStr);

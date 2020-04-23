@@ -26,7 +26,7 @@ public class ScheduleJob {
     private String methodName;
 
     /** 是否自定义 **/
-    private String isZdy = "n";// 反射时默认不指定参数类型
+    private String isZdy = "y";// 反射时默认不指定参数类型
 
     public String getTriggerName() {
         if(triggerName == null || "".equals(triggerName)) {

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/jstack" />
     <file type="web" url="file://$PROJECT_DIR$/myschedulermanage" />
     <file type="web" url="file://$PROJECT_DIR$/schedulermanage" />
     <file type="web" url="file://$PROJECT_DIR$/SpringBootCRUD" />
@@ -11,6 +12,7 @@
         <option value="$PROJECT_DIR$/SpringBootCRUD/pom.xml" />
         <option value="$PROJECT_DIR$/ScriptException/pom.xml" />
         <option value="$PROJECT_DIR$/schedulermanage/pom.xml" />
+        <option value="$PROJECT_DIR$/jstack/pom.xml" />
       </list>
     </option>
   </component>

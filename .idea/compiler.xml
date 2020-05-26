@@ -9,7 +9,8 @@
         <module name="jstack" />
         <module name="schedulermanage" />
         <module name="ScriptException" />
-        <module name="SpringBootCRUD" />
+        <module name="SpringbootCRUD" />
+        <module name="springtest (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,8 +18,11 @@
       <module name="myschedulermanage" target="1.8" />
       <module name="schedulermanage" target="1.8" />
       <module name="ScriptException" target="1.5" />
-      <module name="SpringBootCRUD" target="1.8" />
+      <module name="SpringBoot-CRUD" target="1.8" />
+      <module name="SpringbootCRUD" target="1.8" />
       <module name="SpringBootHello" target="1.8" />
+      <module name="springtest" target="1.8" />
+      <module name="springtest (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringBootCRUD/SpringBootCRUD.iml" filepath="$PROJECT_DIR$/SpringBootCRUD/SpringBootCRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootCRUD/SpringbootCRUD.iml" filepath="$PROJECT_DIR$/SpringBootCRUD/SpringbootCRUD.iml" />
       <module fileurl="file://$PROJECT_DIR$/jstack/jstack.iml" filepath="$PROJECT_DIR$/jstack/jstack.iml" />
       <module fileurl="file://$PROJECT_DIR$/schedulermanage/schedulermanage.iml" filepath="$PROJECT_DIR$/schedulermanage/schedulermanage.iml" />
     </modules>

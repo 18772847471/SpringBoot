@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jstack:war">
+    <output-path>$PROJECT_DIR$/jstack/target</output-path>
+    <root id="archive" name="jstack-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="jstack:war exploded" />
+    </root>
+  </artifact>
+</component>

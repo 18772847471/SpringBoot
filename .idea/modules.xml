@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootCRUD/SpringbootCRUD.iml" filepath="$PROJECT_DIR$/SpringBootCRUD/SpringbootCRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aop/aop.iml" filepath="$PROJECT_DIR$/aop/aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/jstack/jstack.iml" filepath="$PROJECT_DIR$/jstack/jstack.iml" />
       <module fileurl="file://$PROJECT_DIR$/schedulermanage/schedulermanage.iml" filepath="$PROJECT_DIR$/schedulermanage/schedulermanage.iml" />
     </modules>

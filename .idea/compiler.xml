@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="annotation" />
+        <module name="aop" />
         <module name="jstack" />
         <module name="schedulermanage" />
         <module name="ScriptException" />
@@ -14,6 +16,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="annotation" target="1.8" />
+      <module name="aop" target="1.8" />
       <module name="jstack" target="1.8" />
       <module name="myschedulermanage" target="1.8" />
       <module name="schedulermanage" target="1.8" />

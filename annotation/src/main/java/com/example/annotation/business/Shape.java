@@ -12,7 +12,7 @@ public class Shape {
     @Color(color = "红色")
     private String color;
 
-    @Hello(sayHello = "sayTest")
+    @Hello(sayHello = "测试注解")
     public  void say(String name){
         System.out.println(name+"来了");
     }

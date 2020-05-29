@@ -31,7 +31,7 @@ public class ClassInfoService {
             for (Class classinfo : classes) {
                 ClassInfoVO c =new ClassInfoVO();
                 BeanUtils.copyProperties(classinfo,c);
-                List<Student> students = studentService.getStudentList();
+                List<Student> students = studentService.getStudentList(c.getCid());
                 c.setStudents(students);
                 list.add(c);
             }

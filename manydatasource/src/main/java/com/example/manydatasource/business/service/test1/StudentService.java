@@ -18,9 +18,9 @@ public class StudentService {
     @Autowired
     private StudentMapper studentMapper;
 
-    public List<Student> getStudentList() {
+    public List<Student> getStudentList(String cid) {
         System.out.println("执行了test1中getStudentList");
-        return  studentMapper.getStudentList();
+        return  studentMapper.getStudentList(cid);
     }
 
     @Transactional

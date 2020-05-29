@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/aop/aop.iml" filepath="$PROJECT_DIR$/aop/aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/jstack/jstack.iml" filepath="$PROJECT_DIR$/jstack/jstack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manydatasource/manydatasource.iml" filepath="$PROJECT_DIR$/manydatasource/manydatasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytest/mytest.iml" filepath="$PROJECT_DIR$/mytest/mytest.iml" />
       <module fileurl="file://$PROJECT_DIR$/schedulermanage/schedulermanage.iml" filepath="$PROJECT_DIR$/schedulermanage/schedulermanage.iml" />
     </modules>
   </component>

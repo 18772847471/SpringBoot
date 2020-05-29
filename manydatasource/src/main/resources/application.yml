@@ -1,0 +1,21 @@
+server:
+  port: 80
+spring:
+  datasource:
+    dynamic:
+      primary: master #设置默认的数据源或者数据源组,默认值即为master,如果你主从默认下主库的名称就是master可不定义此项。
+      datasource:
+        master:
+          username: root
+          password: HuangBo@2019
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://120.27.248.244:3306/test1?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+        slave:
+          username: root
+          password: HuangBo@2019
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://120.27.248.244:3306/test2?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+
+mybatis:
+    mapper-locations: classpath*:mapping/**/*.xml
+

@@ -9,6 +9,8 @@
         <module name="annotation" />
         <module name="aop" />
         <module name="jstack" />
+        <module name="manydatasource" />
+        <module name="mytest" />
         <module name="schedulermanage" />
         <module name="ScriptException" />
         <module name="SpringbootCRUD" />
@@ -19,7 +21,10 @@
       <module name="annotation" target="1.8" />
       <module name="aop" target="1.8" />
       <module name="jstack" target="1.8" />
+      <module name="manydatasource" target="1.8" />
+      <module name="multiple" target="1.8" />
       <module name="myschedulermanage" target="1.8" />
+      <module name="mytest" target="1.8" />
       <module name="schedulermanage" target="1.8" />
       <module name="ScriptException" target="1.5" />
       <module name="SpringBoot-CRUD" target="1.8" />

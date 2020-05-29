@@ -3,8 +3,11 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/aop" />
     <file type="web" url="file://$PROJECT_DIR$/jstack" />
+    <file type="web" url="file://$PROJECT_DIR$/manydatasource" />
+    <file type="web" url="file://$PROJECT_DIR$/multiple" />
     <file type="web" url="file://$PROJECT_DIR$/myschedulermanage" />
     <file type="web" url="file://$PROJECT_DIR$/myspringtest" />
+    <file type="web" url="file://$PROJECT_DIR$/mytest" />
     <file type="web" url="file://$PROJECT_DIR$/schedulermanage" />
     <file type="web" url="file://$PROJECT_DIR$/SpringBootCRUD" />
   </component>
@@ -17,6 +20,8 @@
         <option value="$PROJECT_DIR$/jstack/pom.xml" />
         <option value="$PROJECT_DIR$/aop/pom.xml" />
         <option value="$PROJECT_DIR$/annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/mytest/pom.xml" />
+        <option value="$PROJECT_DIR$/manydatasource/pom.xml" />
       </list>
     </option>
   </component>

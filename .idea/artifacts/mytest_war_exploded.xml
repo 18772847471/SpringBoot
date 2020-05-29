@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="aop:war exploded">
-    <output-path>$PROJECT_DIR$/aop/target/aop-0.0.1-SNAPSHOT</output-path>
+  <artifact type="exploded-war" name="mytest:war exploded">
+    <output-path>$PROJECT_DIR$/mytest/target/mytest-0.0.1-SNAPSHOT</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="aop" />
+          <element id="module-output" name="mytest" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.3.0.RELEASE" />
@@ -28,24 +28,19 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-freemarker:2.3.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.30" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.2.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.3.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.8" />
-          <element id="library" level="project" name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/aop/target/aop-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/mytest/target/mytest-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="aop/web/Web" />
+      <element id="javaee-facet-resources" facet="mytest/web/Web" />
     </root>
   </artifact>
 </component>

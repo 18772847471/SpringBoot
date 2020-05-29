@@ -1,13 +1,11 @@
-package com.example.manydatasource.business.mapper;
+package com.example.manydatasource.business.mapper.test1;
 
-import com.baomidou.dynamic.datasource.annotation.DS;
 import com.example.manydatasource.business.model.Student;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
-
 import java.util.List;
 
 @Repository

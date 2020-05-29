@@ -8,14 +8,12 @@ spring:
         master:
           username: root
           password: HuangBo@2019
-          driver-class-name: com.mysql.jdbc.Driver
+          driver-class-name: com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
           url: jdbc:mysql://120.27.248.244:3306/test1?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
         slave:
           username: root
           password: HuangBo@2019
-          driver-class-name: com.mysql.jdbc.Driver
+          driver-class-name: com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
           url: jdbc:mysql://120.27.248.244:3306/test2?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
 
-mybatis:
-    mapper-locations: classpath*:mapping/**/*.xml
 

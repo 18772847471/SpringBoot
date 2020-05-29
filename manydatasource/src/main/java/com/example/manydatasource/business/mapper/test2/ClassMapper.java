@@ -1,6 +1,5 @@
-package com.example.manydatasource.business.mapper;
+package com.example.manydatasource.business.mapper.test2;
 
-import com.baomidou.dynamic.datasource.annotation.DS;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
@@ -18,5 +17,5 @@ public interface ClassMapper {
     List<Class> getClassList();
 
     @Insert("INSERT INTO t_class(cid, cname) VALUES (#{cid}, #{cname})")
-    void insertStudent(@Param("cid") String sid, @Param("cname") String cname);
+    void insertClass(@Param("cid") String sid, @Param("cname") String cname);
 }

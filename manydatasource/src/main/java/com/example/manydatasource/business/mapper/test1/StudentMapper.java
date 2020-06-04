@@ -15,6 +15,6 @@ public interface StudentMapper {
     @Select("select * from t_student where cid = #{cid}")
     List<Student> getStudentList(@Param("cid") String cid);
 
-    @Insert("INSERT INTO t_student(sid, sname, cid) VALUES (#{sid}, #{sname}, #{cid})")
+    @Insert("insert into t_student(sid, sname, cid) values (#{sid}, #{sname}, #{cid})")
     void insertStudent(@Param("sid") String sid, @Param("sname") String sname, @Param("cid") String cid);
 }

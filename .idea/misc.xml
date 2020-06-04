@@ -9,6 +9,7 @@
     <file type="web" url="file://$PROJECT_DIR$/myspringtest" />
     <file type="web" url="file://$PROJECT_DIR$/mytest" />
     <file type="web" url="file://$PROJECT_DIR$/schedulermanage" />
+    <file type="web" url="file://$PROJECT_DIR$/springbean" />
     <file type="web" url="file://$PROJECT_DIR$/SpringBootCRUD" />
   </component>
   <component name="MavenProjectsManager">
@@ -22,6 +23,7 @@
         <option value="$PROJECT_DIR$/annotation/pom.xml" />
         <option value="$PROJECT_DIR$/mytest/pom.xml" />
         <option value="$PROJECT_DIR$/manydatasource/pom.xml" />
+        <option value="$PROJECT_DIR$/springbean/pom.xml" />
       </list>
     </option>
   </component>

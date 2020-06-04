@@ -13,6 +13,7 @@
         <module name="mytest" />
         <module name="schedulermanage" />
         <module name="ScriptException" />
+        <module name="springbean" />
         <module name="SpringbootCRUD" />
         <module name="springtest (1)" />
       </profile>
@@ -27,6 +28,7 @@
       <module name="mytest" target="1.8" />
       <module name="schedulermanage" target="1.8" />
       <module name="ScriptException" target="1.5" />
+      <module name="springbean" target="1.8" />
       <module name="SpringBoot-CRUD" target="1.8" />
       <module name="SpringbootCRUD" target="1.8" />
       <module name="SpringBootHello" target="1.8" />

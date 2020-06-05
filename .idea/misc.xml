@@ -11,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/schedulermanage" />
     <file type="web" url="file://$PROJECT_DIR$/springbean" />
     <file type="web" url="file://$PROJECT_DIR$/SpringBootCRUD" />
+    <file type="web" url="file://$PROJECT_DIR$/springioc" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -24,6 +25,7 @@
         <option value="$PROJECT_DIR$/mytest/pom.xml" />
         <option value="$PROJECT_DIR$/manydatasource/pom.xml" />
         <option value="$PROJECT_DIR$/springbean/pom.xml" />
+        <option value="$PROJECT_DIR$/springioc/pom.xml" />
       </list>
     </option>
   </component>

@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/mytest/mytest.iml" filepath="$PROJECT_DIR$/mytest/mytest.iml" />
       <module fileurl="file://$PROJECT_DIR$/schedulermanage/schedulermanage.iml" filepath="$PROJECT_DIR$/schedulermanage/schedulermanage.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbean/springbean.iml" filepath="$PROJECT_DIR$/springbean/springbean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springioc/springioc.iml" filepath="$PROJECT_DIR$/springioc/springioc.iml" />
     </modules>
   </component>
 </project>

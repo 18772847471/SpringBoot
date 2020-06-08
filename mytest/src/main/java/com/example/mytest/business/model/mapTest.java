@@ -14,7 +14,6 @@ public class mapTest {
         Map<String,Object> linkHashMap = new LinkedHashMap<String,Object>();
         Set<String> hashSet =new HashSet<String>();
         ReentrantLock reentrantLock =new ReentrantLock();
-        DispatcherServlet
         concurrentHashMap.put("1","A");
     }
 }

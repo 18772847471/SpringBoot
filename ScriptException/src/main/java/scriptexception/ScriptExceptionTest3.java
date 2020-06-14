@@ -13,7 +13,7 @@ public class ScriptExceptionTest3 {
         map.put("buyplanguid", "3");
         map.put("platform", null);
         map.put("name", 1);
-        String configInfo = "(platform == nil || name == nil)";
+        String configInfo = "(platform == nil && name == 5)";
         Expression expression = AviatorEvaluator.compile(configInfo);
         Boolean result = (Boolean) expression.execute(map);
         if (result) {

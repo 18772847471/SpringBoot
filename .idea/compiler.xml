@@ -10,6 +10,7 @@
         <module name="aop" />
         <module name="jstack" />
         <module name="manydatasource" />
+        <module name="mymapperscan" />
         <module name="mytest" />
         <module name="schedulermanage" />
         <module name="ScriptException" />
@@ -25,6 +26,7 @@
       <module name="jstack" target="1.8" />
       <module name="manydatasource" target="1.8" />
       <module name="multiple" target="1.8" />
+      <module name="mymapperscan" target="1.8" />
       <module name="myschedulermanage" target="1.8" />
       <module name="mytest" target="1.8" />
       <module name="schedulermanage" target="1.8" />

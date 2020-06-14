@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/manydatasource/pom.xml" />
         <option value="$PROJECT_DIR$/springbean/pom.xml" />
         <option value="$PROJECT_DIR$/springioc/pom.xml" />
+        <option value="$PROJECT_DIR$/mymapperscan/pom.xml" />
       </list>
     </option>
   </component>

@@ -14,7 +14,16 @@ public class mapTest {
         Map<String,Object> linkHashMap = new LinkedHashMap<String,Object>();
         Set<String> hashSet =new HashSet<String>();
         ReentrantLock reentrantLock =new ReentrantLock();
-        concurrentHashMap.put("1","A");
+
+        //map.put(null,null);
+        //hashTable.put("1",null);
+        concurrentHashMap.put("1",null);
+
+         
+        //System.out.println(map.get(null));
+        //System.out.println(hashTable.get(null));
+        //System.out.println(concurrentHashMap.get(null));
+        //System.out.println(linkHashMap.get(null));
     }
 
 

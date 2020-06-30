@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/jstack" />
     <file type="web" url="file://$PROJECT_DIR$/manydatasource" />
     <file type="web" url="file://$PROJECT_DIR$/multiple" />
+    <file type="web" url="file://$PROJECT_DIR$/myexception" />
     <file type="web" url="file://$PROJECT_DIR$/myschedulermanage" />
     <file type="web" url="file://$PROJECT_DIR$/myspringtest" />
     <file type="web" url="file://$PROJECT_DIR$/mytest" />
@@ -27,6 +28,7 @@
         <option value="$PROJECT_DIR$/springbean/pom.xml" />
         <option value="$PROJECT_DIR$/springioc/pom.xml" />
         <option value="$PROJECT_DIR$/mymapperscan/pom.xml" />
+        <option value="$PROJECT_DIR$/myexception/pom.xml" />
       </list>
     </option>
   </component>

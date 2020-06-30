@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="myexception:war">
+    <output-path>$PROJECT_DIR$/myexception/target</output-path>
+    <root id="archive" name="myexception-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="myexception:war exploded" />
+    </root>
+  </artifact>
+</component>

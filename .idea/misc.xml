@@ -9,6 +9,7 @@
     <file type="web" url="file://$PROJECT_DIR$/myschedulermanage" />
     <file type="web" url="file://$PROJECT_DIR$/myspringtest" />
     <file type="web" url="file://$PROJECT_DIR$/mytest" />
+    <file type="web" url="file://$PROJECT_DIR$/myweixin" />
     <file type="web" url="file://$PROJECT_DIR$/schedulermanage" />
     <file type="web" url="file://$PROJECT_DIR$/springbean" />
     <file type="web" url="file://$PROJECT_DIR$/SpringBootCRUD" />
@@ -20,7 +21,6 @@
         <option value="$PROJECT_DIR$/SpringBootCRUD/pom.xml" />
         <option value="$PROJECT_DIR$/ScriptException/pom.xml" />
         <option value="$PROJECT_DIR$/schedulermanage/pom.xml" />
-        <option value="$PROJECT_DIR$/jstack/pom.xml" />
         <option value="$PROJECT_DIR$/aop/pom.xml" />
         <option value="$PROJECT_DIR$/annotation/pom.xml" />
         <option value="$PROJECT_DIR$/mytest/pom.xml" />
@@ -29,6 +29,7 @@
         <option value="$PROJECT_DIR$/springioc/pom.xml" />
         <option value="$PROJECT_DIR$/mymapperscan/pom.xml" />
         <option value="$PROJECT_DIR$/myexception/pom.xml" />
+        <option value="$PROJECT_DIR$/myweixin/pom.xml" />
       </list>
     </option>
   </component>

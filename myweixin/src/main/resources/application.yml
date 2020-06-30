@@ -1,0 +1,10 @@
+server:
+  port: 80
+
+weixin:
+  token: hb1104583639
+
+robot:
+  url: http://op.juhe.cn/iRobot/index
+  appKey: d1f1f263bf75709d224f4345e97b73c4
+

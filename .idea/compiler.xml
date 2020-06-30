@@ -8,11 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="annotation" />
         <module name="aop" />
-        <module name="jstack" />
         <module name="manydatasource" />
         <module name="myexception" />
         <module name="mymapperscan" />
         <module name="mytest" />
+        <module name="myweixin" />
         <module name="schedulermanage" />
         <module name="ScriptException" />
         <module name="springbean" />
@@ -31,6 +31,7 @@
       <module name="mymapperscan" target="1.8" />
       <module name="myschedulermanage" target="1.8" />
       <module name="mytest" target="1.8" />
+      <module name="myweixin" target="1.8" />
       <module name="schedulermanage" target="1.8" />
       <module name="ScriptException" target="1.5" />
       <module name="springbean" target="1.8" />
